@@ -77,7 +77,7 @@ class GeraText extends StatelessWidget {
                       ),
                     ],
                   ),
-                  const SizedBox(width: 158.0),
+                  const SizedBox(width: 108.0),
                   Column(
                     crossAxisAlignment: CrossAxisAlignment.end,
                     children: [
@@ -166,7 +166,7 @@ class GeraText extends StatelessWidget {
                 ],
               ),
             ),
-            const SizedBox(height: 40),
+            const SizedBox(height: 140),
             GestureDetector(
               onTap: () {
                 falarTexto(textogerado);
@@ -188,7 +188,7 @@ class GeraText extends StatelessWidget {
                   children: [
                     Column(
                       children: [
-                        Image.network(
+                        Image.asset(
                           'assets/images/icons_de_som.png',
                           width: 24,
                           height: 24,

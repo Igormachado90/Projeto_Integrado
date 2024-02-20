@@ -148,7 +148,7 @@ class TelaNova extends StatelessWidget {
                           textAlign: TextAlign.center,
                         ),
                       ),
-                      const SizedBox(height: 40),
+                      const SizedBox(height: 5.0),
                       const SizedBox(
                         height: 80,
                       ),

@@ -2,7 +2,8 @@ import 'package:flutter_tts/flutter_tts.dart';
 
 FlutterTts flutterTts = FlutterTts()
   ..setLanguage('pt-BR')
-  ..setSpeechRate(1.5)
+  ..setSpeechRate(2.8)
+  // ..setSpeechRate(1.5)
   ..setVolume(1.0)
   ..setPitch(1.0);
 

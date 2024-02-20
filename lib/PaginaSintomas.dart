@@ -152,13 +152,13 @@ class Sintomas extends StatelessWidget {
                 ),
               ),
               Positioned(
-                top: 27.0,
-                left: 65.0,
+                top: 8.0,
+                left: 40.0,
                 child: Column(
                   children: [
                     MaterialButton(
-                      minWidth: 0.90,
-                      height: 16,
+                      minWidth: 0.09,
+                      height: 6,
                       // color: Colors.blue,
                       onPressed: () {
                         _mostrarSintomas(context, 'Dor no Ouvido!',
@@ -169,8 +169,8 @@ class Sintomas extends StatelessWidget {
                 ),
               ),
               Positioned(
-                top: 28.3,
-                left: 83.9,
+                top: 10.3,
+                left: 73.9,
                 child: Column(
                   children: [
                     MaterialButton(
@@ -189,8 +189,8 @@ class Sintomas extends StatelessWidget {
                 ),
               ),
               Positioned(
-                top: 63.0,
-                left: 66.5,
+                top: 53.0,
+                left: 65.0,
                 child: Column(
                   children: [
                     MaterialButton(
@@ -226,13 +226,13 @@ class Sintomas extends StatelessWidget {
                 ),
               ),
               Positioned(
-                top: 148.0,
-                left: 41,
+                top: 138.0,
+                left: 27,
                 child: Column(
                   children: [
                     MaterialButton(
-                      minWidth: 10.1,
-                      height: 29,
+                      minWidth: 5.1,
+                      height: 19,
                       // color: Colors.blue,
                       onPressed: () {
                         _mostrarSintomas(
@@ -246,7 +246,7 @@ class Sintomas extends StatelessWidget {
               ),
               Positioned(
                 top: 97,
-                left: 74.5,
+                left: 64.5,
                 child: Column(
                   children: [
                     MaterialButton(
@@ -264,12 +264,12 @@ class Sintomas extends StatelessWidget {
               ),
               Positioned(
                 top: 220,
-                left: 186,
+                left: 176,
                 child: Column(
                   children: [
                     MaterialButton(
-                      minWidth: 28,
-                      height: 40,
+                      minWidth: 10,
+                      height: 35,
                       // color: Colors.blue,
                       onPressed: () {
                         _mostrarSintomas(context, 'Dor no pantruilho!',
@@ -282,7 +282,7 @@ class Sintomas extends StatelessWidget {
               ),
               Positioned(
                 top: 110,
-                left: 201.9,
+                left: 191.9,
                 child: Column(
                   children: [
                     MaterialButton(
